@@ -17,12 +17,12 @@ const About = () => {
             </div>
             
             {/* Floating stats */}
-            <div className="absolute -bottom-8 -right-8 bg-card rounded-2xl p-6 shadow-elegant border border-border/50">
+            {/* <div className="absolute -bottom-8 -right-8 bg-card rounded-2xl p-6 shadow-elegant border border-border/50">
               <div className="text-center">
                 <div className="text-3xl font-bold text-sage">500+</div>
                 <div className="text-sm text-muted-foreground">Happy Clients</div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Content */}
@@ -62,7 +62,7 @@ const About = () => {
 
             <div className="pt-4">
               <div className="flex flex-wrap gap-3">
-                {['Swedish Massage', 'Deep Tissue', 'Hot Stone', 'Sports Therapy'].map((specialty) => (
+                {['Swedish Massage', 'Deep Tissue', 'Hot Stone', '4 Hands'].map((specialty) => (
                   <span 
                     key={specialty}
                     className="px-4 py-2 bg-sage/10 text-sage rounded-full text-sm font-medium border border-sage/20"

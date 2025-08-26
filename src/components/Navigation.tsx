@@ -39,9 +39,9 @@ const Navigation = () => {
             >
               Contact
             </button>
-            <Button variant="sage" onClick={() => scrollToSection('contact')}>
+            {/* <Button variant="sage" onClick={() => scrollToSection('contact')}>
               Book Now
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile menu button */}
