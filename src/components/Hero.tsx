@@ -50,6 +50,13 @@ const Hero = () => {
               View Services
             </Button>
           </div>
+
+          {/* Gift Card Promo */}
+          <div className="mt-8">
+            <p className="text-lg md:text-xl font-semibold" style={{ color: '#e74c3c' }}>
+              🎁 Gift Cards Available for ProMassage!
+            </p>
+          </div>
         </div>
 
         {/* Floating elements */}

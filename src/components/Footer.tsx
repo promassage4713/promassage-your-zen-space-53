@@ -53,16 +53,12 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button
-                  onClick={() =>
-                    document
-                      .getElementById("contact")
-                      ?.scrollIntoView({ behavior: "smooth" })
-                  }
+                <a
+                  href="tel:9187303716"
                   className="text-sage-foreground/80 hover:text-sage-foreground transition-colors"
                 >
                   Contact
-                </button>
+                </a>
               </li>
             </ul>
           </div>

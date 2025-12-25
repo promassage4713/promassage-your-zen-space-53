@@ -33,12 +33,12 @@ const Navigation = () => {
             >
               About
             </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
+            <a 
+              href="tel:9187303716"
               className="text-foreground hover:text-sage transition-colors"
             >
               Contact
-            </button>
+            </a>
             {/* <Button variant="sage" onClick={() => scrollToSection('contact')}>
               Book Now
             </Button> */}
