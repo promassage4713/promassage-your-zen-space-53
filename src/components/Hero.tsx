@@ -33,14 +33,14 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            {/* <Button 
+            <Button 
               variant="hero" 
               size="lg" 
-              onClick={scrollToContact}
+              onClick={() => window.open('https://app.squareup.com/appointments/book/5unpno09ni5y0g/LHX15RVEY90G5/start', '_blank')}
               className="px-8 py-4 text-lg"
             >
               Book Your Session
-            </Button> */}
+            </Button>
             <Button
               variant="outline"
               size="lg"
