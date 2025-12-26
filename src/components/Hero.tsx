@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
@@ -26,9 +26,9 @@ const Hero = () => {
             Restore Your
             <span className="block text-gold">Well-being</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl mb-8 opacity-95 max-w-2xl mx-auto leading-relaxed">
-            Professional massage therapy to rejuvenate your body, mind, and spirit. 
+            Professional massage therapy to rejuvenate your body, mind, and spirit.
             Experience the healing touch at ProMassage.
           </p>
 
@@ -41,8 +41,8 @@ const Hero = () => {
             >
               Book Your Session
             </Button> */}
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 text-lg bg-sage-foreground/10 border-sage-foreground/30 text-sage-foreground hover:bg-sage-foreground/20"
@@ -53,8 +53,8 @@ const Hero = () => {
 
           {/* Gift Card Promo */}
           <div className="mt-8">
-            <p className="text-lg md:text-xl font-semibold" style={{ color: '#e74c3c' }}>
-              🎁 Gift Cards Available for ProMassage!
+            <p className="text-lg md:text-7xl font-semibold" style={{ color: '#e74c3c' }}>
+              🎁 Gift Cards Available for Pro Massage!
             </p>
           </div>
         </div>
